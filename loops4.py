@@ -1,6 +1,5 @@
-name = str("LUNI-lmr")
+name = "LUNI-lmr"
 
 # You can use one loop for each character too
 for letter in name:
-    
-    print (letter)
+    print(letter)

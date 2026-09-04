@@ -1,4 +1,4 @@
-age = int(input("Enter your age: ")) # variable that receives the age
+age = int(input("Enter your age: "))  # variable that receives the age
 
 if 18 <= age <= 35:
     physical_condition = str(input("Is your physical condition good? "))
@@ -9,5 +9,3 @@ if 18 <= age <= 35:
         print("You are disqualified")
 else:
     print("You are disqualified")
-
- 

@@ -1,9 +1,10 @@
 while True:
-
     numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
     count = int(input("Which number do you want? "))
-    operation = input("Which operation do you want (add/sub/multi/div): ").lower() # .lower helps the program to not considerate differences between uppercases and lowercases
+    operation = input(
+        "Which operation do you want (add/sub/multi/div): "
+    ).lower()  # .lower helps the program to not considerate differences between uppercases and lowercases
 
     if operation == "add":
         for n in numbers:

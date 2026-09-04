@@ -1,4 +1,4 @@
-while True: # It ensures that the loop starts correctly.
+while True:  # It ensures that the loop starts correctly.
     number1 = float(input("Enter the first number: "))
     number2 = float(input("Enter the second number: "))
 
@@ -20,7 +20,7 @@ while True: # It ensures that the loop starts correctly.
         print("Result:", number1 * number2)
 
     elif option == "4":
-        if number2 != 0: # != means "different"
+        if number2 != 0:  # != means "different"
             print("Result:", number1 / number2)
         else:
             print("It is not possible to divide by zero.")
@@ -29,7 +29,7 @@ while True: # It ensures that the loop starts correctly.
         print("Invalid option.")
 
     # it will complete the loop
-    continue_program = input("\nDo you want to perform another operation? (y/n): ") 
+    continue_program = input("\nDo you want to perform another operation? (y/n): ")
 
     if continue_program.lower() == "n":
         print("Program ended.")

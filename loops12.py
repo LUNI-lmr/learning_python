@@ -1,5 +1,4 @@
 while True:
-
     numbers = range(1, 101)
 
     count = int(input("Which number do you want? "))
